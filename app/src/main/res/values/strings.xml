@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Herbert Remote</string>
+    <string name="home_title">Herbert Remote</string>
+    <string name="home_pull_to_scan">Swipe down to search for devices</string>
+    <string name="home_scan_action">Scan</string>
+    <string name="home_device_subtitle">Herbert %1$02d</string>
+    <string name="home_device_nearby">Nearby</string>
+    <string name="home_device_saved">Saved</string>
+    <string name="mock_chip_on">Mock: ON</string>
+    <string name="mock_chip_off">Mock: OFF</string>
+
+    <string name="permission_ble_rationale">Bluetooth permission is needed to find and control nearby Herbert gardens.</string>
+    <string name="permission_location_rationale">Location permission is required by Android on this OS version to scan for Bluetooth LE devices.</string>
+    <string name="permission_grant_button">Allow</string>
+    <string name="bluetooth_disabled_message">Bluetooth is turned off. Enable Bluetooth to scan for Herbert gardens.</string>
+    <string name="bluetooth_enable_button">Turn on</string>
+    <string name="location_disabled_message">Turn on Location services so Android can discover nearby Bluetooth LE devices.</string>
+    <string name="location_settings_button">Settings</string>
+
+    <string name="error_bluetooth_unavailable">Bluetooth is unavailable on this device.</string>
+    <string name="error_scan_start_failed">Could not start Bluetooth scan.</string>
+
+    <string name="cd_back">Back</string>
+    <string name="cd_edit_name">Rename device</string>
+    <string name="cd_change_photo">Change photo</string>
+    <string name="cd_water_level">Water level</string>
+    <string name="cd_device_info">Open device controls</string>
+
+    <string name="connection_connected">CONNECTED</string>
+    <string name="connection_connecting">CONNECTING…</string>
+    <string name="connection_disconnected">DISCONNECTED · TAP TO RECONNECT</string>
+
+    <string name="water_level_unknown">Water level: unknown</string>
+    <string name="water_level_empty">Water level: empty</string>
+    <string name="water_level_low">Water level: low</string>
+    <string name="water_level_ok">Water level: OK</string>
+    <string name="water_level_full">Water level: full</string>
+
+    <string name="control_brightness_label">Brightness</string>
+    <string name="control_brightness_percent">%1$d%%</string>
+    <string name="control_lighting_section">Lighting</string>
+    <string name="control_schedule_enabled">Schedule timer</string>
+    <string name="control_smooth_fade">Gradual fade</string>
+    <string name="control_sunrise_label">Sunrise</string>
+    <string name="control_sunset_label">Sunset</string>
+    <string name="control_vacation_mode">Vacation mode</string>
+    <string name="control_manual_light">Manual light</string>
+    <string name="format_time_24h">%1$02d:%2$02d</string>
+
+    <string name="rename_device_hint">Garden name</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_set_time">Set</string>
+
+    <string name="photo_picker_title">Device photo</string>
+    <string name="photo_source_camera">Take photo</string>
+    <string name="photo_source_gallery">Choose from gallery</string>
+    <string name="photo_source_remove">Remove photo</string>
+    <string name="photo_save_failed">Could not save photo.</string>
+    <string name="ble_write_failed">Failed to send update to Herbert.</string>
+</resources>

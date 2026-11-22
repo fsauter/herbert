@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="120dp"
+    android:viewportWidth="360"
+    android:viewportHeight="240">
+    <!-- Clean wall & soft ambient glow -->
+    <path
+        android:fillColor="#EEF4F7"
+        android:pathData="M0,0h360v240h-360z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.55"
+        android:pathData="M75,34h210v168h-210z" />
+    <!-- Vertical indoor garden frame -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M80,28h200v176h-200z" />
+    <path
+        android:fillColor="#FAFAFA"
+        android:pathData="M90,38h180v156h-180z" />
+    <!-- Top LED grow light bar & warm/daylight glow -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:fillAlpha="0.85"
+        android:pathData="M100,48 L260,48 L270,180 L90,180 Z" />
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M96,42h168v6h-168z" />
+    <!-- Planter shelf 1 (upper) -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M102,94h156v12h-156z" />
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M132,94 C122,82 124,68 136,66 C146,68 148,82 138,94 Z" />
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M180,94 C168,80 172,64 184,62 C194,65 196,80 186,94 Z" />
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M226,94 C216,83 218,70 228,68 C238,70 240,83 232,94 Z" />
+    <!-- Planter shelf 2 (lower) -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M102,150h156v12h-156z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M126,150 C114,136 118,120 130,118 C142,120 144,136 134,150 Z" />
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M174,150 C164,134 168,116 180,114 C192,116 196,134 184,150 Z" />
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M224,150 C212,137 216,122 228,120 C240,122 242,137 232,150 Z" />
+    <!-- Water reservoir base -->
+    <path
+        android:fillColor="#0288D1"
+        android:fillAlpha="0.85"
+        android:pathData="M90,178h180v16h-180z" />
+</vector>

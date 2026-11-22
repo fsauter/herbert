@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Herbert Remote</string>
+    <string name="home_title">Herbert Remote</string>
+    <string name="home_pull_to_scan">Nach unten wischen, um nach Geräten zu suchen</string>
+    <string name="home_scan_action">Scannen</string>
+    <string name="home_device_subtitle">Herbert %1$02d</string>
+    <string name="home_device_nearby">In der Nähe</string>
+    <string name="home_device_saved">Gespeichert</string>
+    <string name="mock_chip_on">Mock: AN</string>
+    <string name="mock_chip_off">Mock: AUS</string>
+
+    <string name="permission_ble_rationale">Die Bluetooth-Berechtigung wird benötigt, um Herbert-Geräte in der Nähe zu finden und zu steuern.</string>
+    <string name="permission_location_rationale">Auf dieser Android-Version wird die Standortberechtigung für die Bluetooth-LE-Suche benötigt.</string>
+    <string name="permission_grant_button">Erlauben</string>
+    <string name="bluetooth_disabled_message">Bluetooth ist ausgeschaltet. Aktiviere Bluetooth, um nach Herbert-Geräten zu suchen.</string>
+    <string name="bluetooth_enable_button">Einschalten</string>
+    <string name="location_disabled_message">Aktiviere die Standortdienste, damit Android Bluetooth-LE-Geräte in der Nähe finden kann.</string>
+    <string name="location_settings_button">Einstellungen</string>
+
+    <string name="error_bluetooth_unavailable">Bluetooth ist auf diesem Gerät nicht verfügbar.</string>
+    <string name="error_scan_start_failed">Bluetooth-Suche konnte nicht gestartet werden.</string>
+
+    <string name="cd_back">Zurück</string>
+    <string name="cd_edit_name">Gerätenamen ändern</string>
+    <string name="cd_change_photo">Foto ändern</string>
+    <string name="cd_water_level">Wasserstand</string>
+    <string name="cd_device_info">Gerätesteuerung öffnen</string>
+
+    <string name="connection_connected">VERBUNDEN</string>
+    <string name="connection_connecting">VERBINDE…</string>
+    <string name="connection_disconnected">GETRENNT · TIPPEN ZUM VERBINDEN</string>
+
+    <string name="water_level_unknown">Wasserstand: Unbekannt</string>
+    <string name="water_level_empty">Wasserstand: Leer</string>
+    <string name="water_level_low">Wasserstand: Niedrig</string>
+    <string name="water_level_ok">Wasserstand: OK</string>
+    <string name="water_level_full">Wasserstand: Voll</string>
+
+    <string name="control_brightness_label">Helligkeit</string>
+    <string name="control_brightness_percent">%1$d%%</string>
+    <string name="control_lighting_section">Beleuchtung</string>
+    <string name="control_schedule_enabled">Zeitplan aktivieren</string>
+    <string name="control_smooth_fade">Sanfter Übergang</string>
+    <string name="control_sunrise_label">Sonnenaufgang</string>
+    <string name="control_sunset_label">Sonnenuntergang</string>
+    <string name="control_vacation_mode">Urlaubsmodus</string>
+    <string name="control_manual_light">Licht manuell schalten</string>
+    <string name="format_time_24h">%1$02d:%2$02d</string>
+
+    <string name="rename_device_hint">Gartenname</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_set_time">Übernehmen</string>
+
+    <string name="photo_picker_title">Gerätefoto</string>
+    <string name="photo_source_camera">Foto aufnehmen</string>
+    <string name="photo_source_gallery">Aus Galerie wählen</string>
+    <string name="photo_source_remove">Foto entfernen</string>
+    <string name="photo_save_failed">Foto konnte nicht gespeichert werden.</string>
+    <string name="ble_write_failed">Änderung konnte nicht an Herbert gesendet werden.</string>
+</resources>

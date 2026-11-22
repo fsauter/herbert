@@ -1,0 +1,22 @@
+# Local artifacts (never commit)
+*.apk
+decompiled/
+
+# Gradle & build outputs
+.gradle/
+build/
+app/build/
+*/build/
+
+# Local config & keystores
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+
+# macOS & IDE noise
+.DS_Store
+*.iml
+.idea/
+captures/

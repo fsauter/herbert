@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Minimalist planter frame -->
+    <path
+        android:fillColor="#E6F5FC"
+        android:pathData="M34,62 L74,62 L70,76 C69.5,78 67.8,79.5 65.7,79.5 L42.3,79.5 C40.2,79.5 38.5,78 38,76 Z" />
+    <!-- Water wave accent inside planter -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M36.2,68 C41,65.5 46,65.5 54,68 C62,70.5 67,70.5 71.8,68 L70,76 C69.5,78 67.8,79.5 65.7,79.5 L42.3,79.5 C40.2,79.5 38.5,78 38,76 Z" />
+    <!-- Center stem -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M52.4,37 L55.6,37 L55.6,62 L52.4,62 Z" />
+    <!-- Left leaf -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M53.5,47 C43,47 36,41 36,32 C45,32 52,37.5 53.5,47 Z" />
+    <!-- Right leaf -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M54.5,43 C56,33.5 63,28 72,28 C72,37 65,43 54.5,43 Z" />
+    <!-- Subtle top water drop / light beacon -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M54,23 C54,23 58,28.2 58,31 C58,33.2 56.2,35 54,35 C51.8,35 50,33.2 50,31 C50,28.2 54,23 54,23 Z" />
+</vector>
